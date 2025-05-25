@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Send } from "lucide-react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -53,13 +54,23 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (validateForm()) {
-      // Handle form submission
-      console.log("Form submitted:", formData);
-      // Reset form
-      setFormData({ name: "", email: "", message: "" });
+      emailjs
+        .send(
+          "service_nkjy9jd",
+          "template_n6bgeqf",
+          formData,
+          "nBO2Y6qeDOLeRBzXm"
+        )
+        .then(() => {
+          alert("Message sent successfully!");
+          setFormData({ name: "", email: "", message: "" });
+        })
+        .catch((error) => {
+          console.error("Failed to send message:", error);
+          alert("Failed to send message. Try again later.");
+        });
     }
   };
-
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
