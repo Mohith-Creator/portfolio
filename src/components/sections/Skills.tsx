@@ -27,7 +27,7 @@ const skills = [
   { name: "Version Control", icon: Git, description: "Git, GitHub" },
   { name: "API Development", icon: Code2, description: "REST" },
   { name: "Hosting", icon: Cloud, description: "Render, Vercel " },
-  { name: "Command Line", icon: Terminal, description: "Bash, Zsh" },
+  { name: "Command Line", icon: Terminal, description: "Bash" },
   { name: "Tools", icon: Settings, description: "VS Code, Postman" },
 ];
 
