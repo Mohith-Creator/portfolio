@@ -1,13 +1,15 @@
 # 💼 Mohith Reddy's Portfolio
 
-Welcome to my personal portfolio website — a showcase of my skills, projects, and developer journey. Built using **React** and **TypeScript**, this portfolio reflects my passion for creating performant, responsive, and elegant web applications.
+Welcome to my personal portfolio website — a showcase of my skills, projects, and developer journey. Built using React and **TypeScript**, this portfolio reflects my passion for creating performant, responsive, and elegant web applications.
 
 ## 🌐 Live Demo
 
-👉 [Visit Portfolio]( https://portfolio-mohith-reddys-projects-d7edca38.vercel.app)
+👉 [Visit Portfolio](https://portfolio-mohith-reddys-projects-d7edca38.vercel.app)
 
 ![Home Page](./screenshots/home.png)
-![Projects Page](./screenshots/projects.png)
+![About Page](./screenshots/about.png)
+![Skills Page](./screenshots/skill.png)
+![Projects Page](./screenshots/project.png)
 ![Contact Page](./screenshots/contact.png)
 
 ## 🛠 Tech Stack
