@@ -37,6 +37,7 @@ Welcome to my personal portfolio website — a showcase of my skills, projects, 
 
 ## 📂 Folder Structure
 
+```bash
 src/
 ├── assets/ # Images and other media assets
 ├── components/
@@ -51,7 +52,7 @@ src/
 ├── App.tsx # Main application component
 ├── index.css # Global styles (Tailwind)
 ├── main.tsx # ReactDOM render entry
-
+```
 
 ---
 
@@ -90,11 +91,15 @@ cd your-portfolio
 
 ### 2. Install Dependencies
 
+```bash
 npm install
+```
 
 ### 3. Run Locally
 
+```bash
 npm run dev
+```
 
 ## 🛠 Upcoming Improvements
 - Add dark mode support
@@ -104,7 +109,7 @@ npm run dev
 
 🙋‍♂️ Author
 Mohith Reddy
-🔗 [Visit Portfolio](https://portfolio-mohith-reddys-projects-d7edca38.vercel.app)
-🐙 [Visit GitHub](https://github.com/Mohith-Creator/))
-📧 smohithreddy000@gmail.com
+- 🔗 [Visit Portfolio](https://portfolio-mohith-reddys-projects-d7edca38.vercel.app)
+- 🐙 [Visit GitHub](https://github.com/Mohith-Creator/))
+- 📧 smohithreddy000@gmail.com
 
